@@ -32,13 +32,15 @@ Your local repository is now connected to the upstream source and up to date.
 
 ```sh
 git stash push -- .obsidian/workspace.json
-# stashes your local workspace.json so the index becomes clean
+git stash push -- .obsidian/workspace-mobile.json
+# stashes your local workspace files so the index becomes clean
 
 git pull upstream main
 # pulls and merges upstream changes
 
 git update-index --skip-worktree .obsidian/workspace.json
-# tells Git to ignore this file going forward (local only)
+git update-index --skip-worktree .obsidian/workspace-mobile.json
+# tells Git to ignore these files going forward (local only)
 
 git stash pop
 # restores your local workspace.json (Git will now ignore it)
