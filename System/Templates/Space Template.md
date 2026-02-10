@@ -5,27 +5,8 @@ description: ""
 tags:
   - space
 ---
+
 #### Space: <% tp.file.title %>
-
-#### Quick Actions
-
-```button
-name New Note
-type command
-action QuickAdd: Space Note
-```
-
-```button
-name New Topic
-type command
-action QuickAdd: Space Topic
-```
-
-```button
-name New Reference
-type command
-action QuickAdd: Space Reference
-```
 
 #### Notes
 

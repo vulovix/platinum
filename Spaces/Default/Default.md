@@ -6,39 +6,12 @@ tags:
   - space
   - default
 ---
+
 #### Space: Default
 
 #### Overview
 
 > The default space for capturing general knowledge that doesn't belong to a specific life area or project.
-
----
-
-#### Quick Actions
-
-```button
-name New Note
-type command
-action QuickAdd: Knowledge Note
-```
-
-```button
-name New Reference
-type command
-action QuickAdd: Reference
-```
-
-```button
-name New Quote
-type command
-action QuickAdd: Quote
-```
-
-```button
-name New Topic
-type command
-action QuickAdd: Topic
-```
 
 ---
 
