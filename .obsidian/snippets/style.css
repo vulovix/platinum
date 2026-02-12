@@ -1,8 +1,43 @@
-.cm-content{ line-height: 2; }
-.cm-header-1 { line-height: 3; }
-.cm-header-2 { line-height: 3; }
-.cm-header-3 { line-height: 3; }
-.cm-header-4 { line-height: 3; }
-.cm-header-5 { line-height: 3; }
-.cm-header-6 { line-height: 3; }
+.cm-content {
+  line-height: 2;
+}
+.cm-header-1 {
+  line-height: 3;
+}
+.cm-header-2 {
+  line-height: 3;
+}
+.cm-header-3 {
+  line-height: 3;
+}
+.cm-header-4 {
+  line-height: 3;
+}
+.cm-header-5 {
+  line-height: 3;
+}
+.cm-header-6 {
+  line-height: 3;
+}
 
+/* tab-panels extension */
+
+.tab-panel-container {
+  border: unset;
+  background: none;
+  padding: 0;
+}
+.tab-panel-container .tab {
+  border-width: 0;
+  border-top-left-radius: var(--radius-s);
+  border-top-right-radius: var(--radius-s);
+}
+.tab-panel-container .tab.selected {
+  border-width: 0;
+  background: var(--background-primary-alt);
+}
+.tab-panel-container .content-container {
+  box-shadow: none;
+  border-radius: var(--radius-s);
+  background-color: var(--background-primary-alt);
+}
