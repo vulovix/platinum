@@ -58,5 +58,7 @@ These plugins are not currently installed but offer useful functionality that ma
 | **VSCode Editor**      | Edit code files with Monaco Editor (VSCode's editor kernel) inside Obsidian             | View and edit code files without leaving Obsidian, maintain a complete development environment                          | [Documentation](https://github.com/sunxvming/obsidian-vscode-editor)     |
 | **Sheets Extended**    | Advanced markdown table features including cell merging and custom styling              | Create complex tables with merged cells, add visual styling to tables, build professional-looking data presentations    | [Documentation](https://github.com/NicoNekoru/obsidan-advanced-table-xt) |
 | **Share Note**         | Instantly share/publish notes with full theme support and encryption                    | Share notes securely with others while preserving your vault's theme and formatting, includes optional encryption       | [Documentation](https://github.com/alangrainger/share-note)              |
+| **Obsidian Git**       | Connect with your GitHub repository right from your vault.       | [Documentation](https://github.com/Vinzent03/obsidian-git)              |
+
 
 **Installation:** Go to Settings → Community Plugins → Browse, search for the plugin name, and click Install. For manual installation, download files from GitHub releases and place in `.obsidian/plugins/[plugin-name]`.
