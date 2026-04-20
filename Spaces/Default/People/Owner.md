@@ -13,14 +13,12 @@ tags:
 ---
 
 #### About
-
 - Role: Vault Owner
 - Location: Belgrade, Serbia
 
 ---
 
 #### Contact
-
 - Email:
 - Phone:
 

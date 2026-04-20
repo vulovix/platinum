@@ -1,4 +1,4 @@
-#### Resources
+# Resources
 
 Overview of all knowledge across your Spaces (Topics, References, Quotes).
 

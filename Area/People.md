@@ -1,4 +1,4 @@
-#### People
+# People
 
 All people in the vault.
 

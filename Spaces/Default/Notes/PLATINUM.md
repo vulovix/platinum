@@ -8,7 +8,6 @@ tags:
   - note
   - documentation
 ---
-
 # PLATINUM Vault Documentation
 
 ## About PLATINUM
