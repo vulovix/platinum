@@ -110,3 +110,33 @@ git pull upstream main
 git stash pop
 # restores your local workspace.json (Git will now ignore it)
 ```
+
+## Gitignore (Recommended)
+
+Add these rules to `.gitignore` to avoid committing machine-local Obsidian and Copilot state:
+
+```gitignore
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Obsidian user-local UI state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian transient/local data
+.obsidian/cache/
+.obsidian/.trash/
+
+# Copilot local index + machine/user specific plugin data
+.obsidian/copilot-index-*.json
+.obsidian/plugins/copilot/data.json
+```
+
+If these files were tracked before, untrack them once:
+
+```sh
+git rm --cached .obsidian/workspace.json .obsidian/workspace-mobile.json .obsidian/plugins/copilot/data.json
+git rm --cached .obsidian/copilot-index-*.json
+git commit -m "chore: ignore local obsidian and copilot state"
+```

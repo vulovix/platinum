@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Obsidian user-local UI state (commonly causes pull conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian transient/local data
+.obsidian/cache/
+.obsidian/.trash/
+
+# Copilot local index + machine/user specific plugin data
+.obsidian/copilot-index-*.json
+.obsidian/plugins/copilot/data.json
