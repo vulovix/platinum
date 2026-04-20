@@ -80,7 +80,7 @@ git remote rm origin
 2. Add the upstream repository
 
 ```sh
-git remote add upstream https://github.com/vulovix/platinum-quartz.git
+git remote add upstream https://github.com/vulovix/platinum.git
 ```
 
 3. Fetch the upstream branches
